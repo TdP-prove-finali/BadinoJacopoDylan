@@ -13,7 +13,7 @@ public class Model {
 	TesiDAO dao = new TesiDAO();
 	Map<Integer, Quotazione> databasePlayer;
 	Map<Integer, Statistica> databaseStats;
-
+ 
 	public Model() {
 		dao = new TesiDAO();
 		databasePlayer = new HashMap<Integer, Quotazione>();
